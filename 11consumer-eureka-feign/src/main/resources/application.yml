@@ -1,0 +1,12 @@
+server:
+  port: 9006
+eureka: #注册中心的地址
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka
+spring:
+  application:
+    name: 11consumer-eureka-feign
+ribbon:
+  eureka:
+    enabled: true

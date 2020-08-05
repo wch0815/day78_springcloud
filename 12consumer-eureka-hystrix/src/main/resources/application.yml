@@ -1,0 +1,9 @@
+server:
+  port: 9000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka #curl风格
+spring:
+  application:
+    name: 12consumer-eureka-hystrix

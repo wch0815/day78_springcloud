@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03eurekaservicer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04proder-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05consumer-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06consumer-eureka-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07eurekaServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08eurekaserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09proivder-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10proivder-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11consumer-eureka-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12consumer-eureka-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13consumer-eureka-feign-hystrix" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+server:
+  port: 9001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka #curl风格
+spring:
+  application:
+    name: 13consumer-eureka-feign-hystrix
+04provider-eureka:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+feign:
+  hystrix:
+    enabled: true

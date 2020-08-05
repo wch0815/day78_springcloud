@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.cheng</groupId>
+    <artifactId>day78_springcloud</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>01provider</module>
+        <module>02consumer</module>
+        <module>03eurekaservicer</module>
+        <module>04proder-eureka</module>
+        <module>05consumer-eureka</module>
+        <module>06consumer-eureka-ribbon</module>
+        <module>07eurekaServer</module>
+        <module>08eurekaserver</module>
+        <module>09proivder-eureka</module>
+        <module>10proivder-eureka</module>
+        <module>11consumer-eureka-feign</module>
+        <module>12consumer-eureka-hystrix</module>
+        <module>13consumer-eureka-feign-hystrix</module>
+    </modules>
+
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.0.RELEASE</version>
+    </parent>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-build-dependencies</artifactId>
+                <version>Finchley.SR2</version>
+                <type>pom</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>

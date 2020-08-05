@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="_01provider" />
+        <module name="_02consumer" />
+        <module name="_03eurekaservicer" />
+        <module name="_04prodereureka" />
+        <module name="_05consumereureka" />
+        <module name="_06consumereurekaribbon" />
+        <module name="_07eurekaServer" />
+        <module name="_08eurekaserver" />
+        <module name="_09proivdereureka" />
+        <module name="_10proivdereureka" />
+        <module name="_11consumereurekafeign" />
+        <module name="_12consumereurekahystrix" />
+        <module name="_13consumereurekafeignhystrix" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="_01provider" options="-parameters" />
+      <module name="_02consumer" options="-parameters" />
+      <module name="_03eurekaservicer" options="-parameters" />
+      <module name="_04prodereureka" options="-parameters" />
+      <module name="_05consumereureka" options="-parameters" />
+      <module name="_06consumereurekaribbon" options="-parameters" />
+      <module name="_07eurekaServer" options="-parameters" />
+      <module name="_08eurekaserver" options="-parameters" />
+      <module name="_09proivdereureka" options="-parameters" />
+      <module name="_10proivdereureka" options="-parameters" />
+      <module name="_11consumereurekafeign" options="-parameters" />
+      <module name="_12consumereurekahystrix" options="-parameters" />
+      <module name="_13consumereurekafeignhystrix" options="-parameters" />
+      <module name="day78_springcloud" options="-parameters" />
+    </option>
+  </component>
+</project>
